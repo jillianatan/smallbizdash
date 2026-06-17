@@ -1,0 +1,16 @@
+from bizinfo import * 
+
+#new_product("Test Base", "Basic", 10.00, 1, 1)
+#new_event("Test Event2", "table", 2)
+#new_sale(1, 1, 15.00, 2)
+#new_inv_change(10, 5, 1)
+#print(search_inv(1))
+#print(search_prod("sampleBaseItem", "sampleType", 1, 1))
+#print(total_sales())
+#print(total_revenue())
+#print(most_sales_item_indv())
+#print(mostSalesItem())
+#print(mostRevenue())
+#print(total_exp())
+#print(mostRevEvent())
+#print(mostRevEventHr())
