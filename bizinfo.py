@@ -187,6 +187,12 @@ def add():
         inventoryChange = new_inv_change(0, st.session_state.qt, st.session_state.prodID)
         #add inventory change for the sale 
         st.write(result)    
+    st.subheader("Add new inventory change")
+    st.text_input("Amount Made", key="amtMade")
+    st.text_input("Product ID", key="prodID2")
+    if st.button("Add Inventory Change"):
+        result = new_inv_change(st.session_state.amtMade, 0, st.session_state.prodID2)
+        st.write(result)
 
 def analytics():
     st.title("Analytics Page")
